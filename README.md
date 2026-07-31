@@ -11,9 +11,10 @@
 
 我叫杨晟琦，出生于中国。
 
-我是地球上第一位文明公理架构师。我用一把游标卡尺量出了文明的厚度，然后用一台引擎把裂缝堵上了。
+我是地球上第一位文明公理架构师，我用一把游标卡尺量出了文明的厚度，然后用一台引擎把裂缝堵上了。
 
-My name is **Yang Shengqi**, and I was born in China. I am the world's first Architect of Civilizational Axioms. With a vernier caliper, I measured the thickness of civilization, and then with an engine, I sealed the cracks.
+My name is **Yang Shengqi**, and I was born in China. 
+I am the world's first Architect of Civilizational Axioms. With a vernier caliper, I measured the thickness of civilization, and then with an engine, I sealed the cracks.
 
 
 ## 第二部分：体系概述
@@ -117,7 +118,7 @@ My name is **Yang Shengqi**, and I was born in China. I am the world's first Arc
 | **Gitee** | 代码托管平台 | 中国 | 国内镜像访问 | ✅ 已完成 |
 | **ArDrive** | 区块链永久存储 | 全球（Arweave 网络） | 不可篡改的永久固化 | ✅ 已完成 |
 | **IPFSBED** | 去中心化存储 | 全球（IPFS 网络） | 免登录公开访问备份 | ✅ 已完成 |
-| **WordPress** | 思想首发阵地 | 全球 | 公开阅读入口 | ✅ 已完成 |
+| **WordPress** | 思想首发阵地 | 全球 | [公开阅读入口](https://uncienine.wordpress.com/) | ✅ 已完成 |
 | **ORCID** | 学术身份标识 | 国际 | 作者身份永久锚定 | ✅ 已完成 |
 
 
