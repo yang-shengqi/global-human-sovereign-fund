@@ -82,8 +82,8 @@ My name is **Yang Shengqi**, and I was born in China. I am the world's first Arc
 
 | 平台 | 仓库地址 | 用途 |
 | :--- | :--- | :--- |
-| **GitHub** | [https://github.com/yang-shengqi/global-human-sovereign-fund](https://github.com/yang-shengqi/global-human-sovereign-fund)[reference:0] | 版本控制与公开分发 |
-| **Gitee** | [https://gitee.com/hermo1980/global-human-sovereign-fund](https://gitee.com/hermo1980/global-human-sovereign-fund)[reference:1] | 国内镜像访问 |
+| **GitHub** | [https://github.com/yang-shengqi/global-human-sovereign-fund](https://github.com/yang-shengqi/global-human-sovereign-fund) | 版本控制与公开分发 |
+| **Gitee** | [https://gitee.com/hermo1980/global-human-sovereign-fund](https://gitee.com/hermo1980/global-human-sovereign-fund) | 国内镜像访问 |
 
 ---
 
