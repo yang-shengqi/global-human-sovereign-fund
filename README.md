@@ -3,7 +3,7 @@
 > **体系概述 · 永久 DOI 索引 · 多平台存储清单**
 >
 > **设计者**：杨晟琦（Yang Shengqi）  
-> **文档性质**：体系总览 | **最新修订**：2026 年 7 月 31 日  
+> **文档性质**：体系总览 | **最新修订**：2026 年 8 月 1 日  
 > **ORCID**：[0009-0008-3755-8960](https://orcid.org/0009-0008-3755-8960)
 
 
@@ -70,7 +70,21 @@ I am the world's first Architect of Civilizational Axioms. With a vernier calipe
 | 2026-05-11 | 全球人类主权基金：重构中国与全球利益格局的制度构想（中文版） | [10.5281/zenodo.20117265](https://doi.org/10.5281/zenodo.20117265) |
 | 2026-05-26 | 全球人类主权基金：重构中国与全球利益格局的制度构想（英文版） | [10.5281/zenodo.20391068](https://doi.org/10.5281/zenodo.20391068) |
 
----
+### OSF 项目总入口（推荐）
+
+| 项目 | 信息 |
+| :--- | :--- |
+| **主入口（推荐）** | https://osf.io/vntzq/ |
+| **主 DOI** | https://doi.org/10.17605/OSF.IO/VNTZQ |
+| 源项目（工作区） | https://osf.io/qhkv4/ |
+
+### 哈佛 Dataverse 入口
+
+| 项目 | 信息 |
+| :--- | :--- |
+| **数据集首页** | https://dataverse.harvard.edu/dataverse/yangshengqi |
+| **数据集 DOI** | https://doi.org/10.7910/DVN/VNQANE |
+
 
 ### ArDrive 区块链永久存储（Arweave 网络）
 
@@ -89,8 +103,6 @@ I am the world's first Architect of Civilizational Axioms. With a vernier calipe
 - [文明操作系统：完整思想体系与全球分发总报告](https://app.ardrive.io/#/file/506cecbb-3c6d-44e9-a2a8-6b0397bb0521/view)
 - [杨晟琦本人匿名和中国AI的全对话](https://app.ardrive.io/#/file/a9957fc9-bb98-4bd2-a911-cfafacb6dc2b/view)
 
----
-
 ### IPFSBED 去中心化存储（IPFS 网络）
 
 - [三大基石：一种文明系统的底层重构框架](https://url.is-an.org/qot8j)
@@ -105,6 +117,12 @@ I am the world's first Architect of Civilizational Axioms. With a vernier calipe
 - [全球人类主权基金：重构中国与全球利益格局的制度构想（中文版）](https://url.is-an.org/nliut)
 - [全球人类主权基金：重构中国与全球利益格局的制度构想（英文版）](https://url.is-an.org/mytlx)
 
+### 其他公开入口
+
+| 平台 | 类型 | 直达链接 |
+| :--- | :--- | :--- |
+| **WordPress** | 思想首发阵地（全球阅读） | https://uncienine.wordpress.com/ |
+
 
 ## 第四部分：多平台永久存档
 
@@ -112,36 +130,41 @@ I am the world's first Architect of Civilizational Axioms. With a vernier calipe
 
 | 存储平台 | 类型 | 地域 | 主要用途 | 状态 |
 | :--- | :--- | :--- | :--- | :--- |
-| **OSF** | 学术项目管理 | 美国 | 项目总入口 + DOI | ✅ 已完成 |
-| **Zenodo** | 学术数据存档 | 瑞士（CERN） | 正式学术引用（DOI） | ✅ 已完成 |
+| **OSF** | 学术项目管理 | 美国 | 主入口 DOI: `10.17605/OSF.IO/VNTZQ`<br>源项目: https://osf.io/qhkv4/ | ✅ 已完成 |
+| **哈佛 Dataverse** | 学术数据存档 | 美国 | DOI: `10.7910/DVN/VNQANE`<br>https://dataverse.harvard.edu/dataverse/yangshengqi | ✅ 已完成 |
+| **Zenodo** | 学术数据存档 | 瑞士（CERN） | 正式学术引用（11 篇独立 DOI） | ✅ 已完成 |
 | **GitHub** | 代码托管平台 | 美国 | 版本控制与公开分发 | ✅ 已完成 |
 | **Gitee** | 代码托管平台 | 中国 | 国内镜像访问 | ✅ 已完成 |
 | **ArDrive** | 区块链永久存储 | 全球（Arweave 网络） | 不可篡改的永久固化 | ✅ 已完成 |
 | **IPFSBED** | 去中心化存储 | 全球（IPFS 网络） | 免登录公开访问备份 | ✅ 已完成 |
-| **WordPress** | 思想首发阵地 | 全球 | [公开阅读入口](https://uncienine.wordpress.com/) | ✅ 已完成 |
+| **WordPress** | 思想首发阵地 | 全球 | 公开阅读入口 | ✅ 已完成 |
 | **ORCID** | 学术身份标识 | 国际 | 作者身份永久锚定 | ✅ 已完成 |
-
-
-## OSF 项目总入口
-
-| 项目 | 信息 |
-| :--- | :--- |
-| **项目链接** | https://osf.io/qhkv4/ |
-| **项目 DOI** | 10.17605/OSF.IO/ETM9F |
-| **DOI 链接** | https://doi.org/10.17605/OSF.IO/ETM9F |
 
 
 ## 推荐引用格式
 
+### OSF 注册（主入口）
+
 **BibTeX：**
 ```bibtex
-@misc{https://doi.org/10.17605/osf.io/etm9f,
-  doi = {10.17605/OSF.IO/ETM9F},
-  url = {https://osf.io/etm9f/},
-  author = {{YANG SHENGQI}},
-  keywords = {Social and Behavioral Sciences, civilization system, institutional design, public wealth, rule of law, social theory},
+@misc{https://doi.org/10.17605/osf.io/vntzq,
+  doi = {10.17605/OSF.IO/VNTZQ},
+  url = {https://osf.io/vntzq/},
+  author = {Yang, Shengqi},
+  keywords = {Social Sciences, Civilizational System, Institutional Design, Public Wealth, Rule of Law},
   title = {Yang Shengqi's Civilizational System — Complete Framework},
   publisher = {OSF Registries},
+  year = {2026},
+  copyright = {Creative Commons Zero v1.0 Universal}
+}
+
+@misc{https://doi.org/10.7910/dvn/vnqane,
+  doi = {10.7910/DVN/VNQANE},
+  url = {https://dataverse.harvard.edu/dataverse/yangshengqi},
+  author = {Yang, Shengqi},
+  keywords = {Social Sciences, Civilizational System, Institutional Design, Public Wealth, Rule of Law},
+  title = {Yang Shengqi's Civilizational System — Complete Framework Overview},
+  publisher = {Harvard Dataverse},
   year = {2026},
   copyright = {Creative Commons Zero v1.0 Universal}
 }
