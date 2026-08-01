@@ -128,24 +128,23 @@ I am the world's first Architect of Civilizational Axioms. With a vernier calipe
 
 本体系通过**地理分散**（瑞士、美国、全球区块链）、**技术异构**（学术存档、区块链、代码托管）和**冗余备份**，将文档固化于以下平台：
 
-| 存储平台 | 类型 | 地域 | 主要用途 | 状态 |
+| 存储平台 | 类型 | 地域 | 主要用途（含完整链接） | 状态 |
 | :--- | :--- | :--- | :--- | :--- |
-| **OSF** | 学术项目管理 | 美国 | 主入口 DOI: `10.17605/OSF.IO/VNTZQ`<br>源项目: https://osf.io/qhkv4/ | ✅ 已完成 |
-| **哈佛 Dataverse** | 学术数据存档 | 美国 | DOI: `10.7910/DVN/VNQANE`<br>https://dataverse.harvard.edu/dataverse/yangshengqi | ✅ 已完成 |
-| **Zenodo** | 学术数据存档 | 瑞士（CERN） | 正式学术引用（11 篇独立 DOI） | ✅ 已完成 |
-| **GitHub** | 代码托管平台 | 美国 | 版本控制与公开分发 | ✅ 已完成 |
-| **Gitee** | 代码托管平台 | 中国 | 国内镜像访问 | ✅ 已完成 |
-| **ArDrive** | 区块链永久存储 | 全球（Arweave 网络） | 不可篡改的永久固化 | ✅ 已完成 |
-| **IPFSBED** | 去中心化存储 | 全球（IPFS 网络） | 免登录公开访问备份 | ✅ 已完成 |
-| **WordPress** | 思想首发阵地 | 全球 | 公开阅读入口 | ✅ 已完成 |
-| **ORCID** | 学术身份标识 | 国际 | 作者身份永久锚定 | ✅ 已完成 |
+| **OSF** | 学术项目管理 | 美国 | **主入口 DOI**：[10.17605/OSF.IO/VNTZQ](https://doi.org/10.17605/OSF.IO/VNTZQ)<br>**主入口**：https://osf.io/vntzq/<br>**源项目**：https://osf.io/qhkv4/ | ✅ 已完成 |
+| **哈佛 Dataverse** | 学术数据存档 | 美国 | **DOI**：[10.7910/DVN/VNQANE](https://doi.org/10.7910/DVN/VNQANE)<br>**数据集首页**：https://dataverse.harvard.edu/dataverse/yangshengqi | ✅ 已完成 |
+| **Zenodo** | 学术数据存档 | 瑞士（CERN） | **11 篇独立 DOI**（详见上方 Zenodo 索引表） | ✅ 已完成 |
+| **GitHub** | 代码托管平台 | 美国 | https://github.com/yang-shengqi/global-human-sovereign-fund | ✅ 已完成 |
+| **Gitee** | 代码托管平台 | 中国 | https://gitee.com/hermo1980/global-human-sovereign-fund | ✅ 已完成 |
+| **ArDrive** | 区块链永久存储 | 全球（Arweave 网络） | 详见上方 ArDrive 清单（14 个永久链接） | ✅ 已完成 |
+| **IPFSBED** | 去中心化存储 | 全球（IPFS 网络） | 详见上方 IPFSBED 清单（11 个链接） | ✅ 已完成 |
+| **WordPress** | 思想首发阵地 | 全球 | https://uncienine.wordpress.com/ | ✅ 已完成 |
+| **ORCID** | 学术身份标识 | 国际 | https://orcid.org/0009-0008-3755-8960 | ✅ 已完成 |
 
 
 ## 推荐引用格式
 
 ### OSF 注册（主入口）
 
-**BibTeX：**
 ```bibtex
 @misc{https://doi.org/10.17605/osf.io/vntzq,
   doi = {10.17605/OSF.IO/VNTZQ},
