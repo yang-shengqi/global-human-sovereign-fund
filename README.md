@@ -153,18 +153,8 @@ I am the world's first Architect of Civilizational Axioms. With a vernier calipe
   author = {Yang, Shengqi},
   keywords = {Social Sciences, Civilizational System, Institutional Design, Public Wealth, Rule of Law},
   title = {Yang Shengqi's Civilizational System — Complete Framework},
-  publisher = {OSF Registries},
-  year = {2026},
-  copyright = {Creative Commons Zero v1.0 Universal}
-}
-
-@misc{https://doi.org/10.7910/dvn/vnqane,
-  doi = {10.7910/DVN/VNQANE},
-  url = {https://dataverse.harvard.edu/dataverse/yangshengqi},
-  author = {Yang, Shengqi},
-  keywords = {Social Sciences, Civilizational System, Institutional Design, Public Wealth, Rule of Law},
-  title = {Yang Shengqi's Civilizational System — Complete Framework Overview},
-  publisher = {Harvard Dataverse},
+  publisher = {OSF Registries; Harvard Dataverse},
+  note = {Also archived at Harvard Dataverse: https://doi.org/10.7910/DVN/VNQANE},
   year = {2026},
   copyright = {Creative Commons Zero v1.0 Universal}
 }
