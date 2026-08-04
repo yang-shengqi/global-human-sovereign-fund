@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杨晟琦文明公理系统 · 独立思想锚点</title>
+    <style>
+        /* ===== 全局重置 & 字体 ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f6f4f0;
+            font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, -apple-system, sans-serif;
+            color: #1e1e1e;
+            line-height: 1.7;
+            padding: 30px 20px;
+        }
+
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 50px 55px;
+            border-radius: 24px;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.06);
+            transition: all 0.2s;
+        }
+
+        /* ===== 顶部品牌区 ===== */
+        .brand {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+            border-bottom: 2px solid #eae8e2;
+            padding-bottom: 20px;
+        }
+
+        .brand-left {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .sub-brand {
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            color: #000000;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+        }
+
+        .title-row {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px 16px;
+            margin-top: 2px;
+        }
+
+        .title-row h1 {
+            font-size: 34px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #0a0a0a;
+            margin: 0;
+            line-height: 1.2;
+            display: inline;
+        }
+
+        .title-row .tag {
+            background: #000000;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 4px 16px;
+            border-radius: 30px;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+            display: inline-block;
+        }
+
+        .info-row {
+            font-size: 15px;
+            color: #5a5a5a;
+            margin-top: 6px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+        }
+
+        .info-row a {
+            color: #1e1e1e;
+            text-decoration: none;
+            border-bottom: 1px dotted #b0b0b0;
+        }
+
+        .info-row a:hover {
+            border-bottom: 1px solid #1e1e1e;
+        }
+
+        .brand-right {
+            font-size: 15px;
+            color: #5a5a5a;
+            text-align: right;
+            align-self: flex-start;
+            margin-top: 4px;
+        }
+
+        /* ===== 设计者自述 ===== */
+        .designer-note {
+            background: #faf9f6;
+            padding: 22px 28px;
+            border-radius: 14px;
+            margin: 20px 0 24px 0;
+            border-left: 5px solid #1e1e1e;
+        }
+
+        .designer-note p {
+            margin-bottom: 4px;
+            font-size: 16px;
+        }
+
+        .designer-note .highlight {
+            font-weight: 600;
+        }
+
+        /* ===== 系统定位与核心特点 ===== */
+        .system-intro {
+            background: #faf9f6;
+            border-radius: 14px;
+            padding: 24px 28px;
+            margin: 0 0 28px 0;
+            border: 1px solid #eae8e2;
+        }
+
+        .system-intro h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #0a0a0a;
+        }
+
+        .system-intro .positioning p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 6px;
+            color: #1e1e1e;
+        }
+
+        .system-intro .positioning p:last-child {
+            margin-bottom: 0;
+        }
+
+        .system-intro .positioning strong {
+            font-weight: 700;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px 24px;
+            margin-top: 4px;
+        }
+
+        .feature-item {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #2a2a2a;
+            padding-left: 6px;
+        }
+
+        .feature-item .num {
+            font-weight: 700;
+            color: #0a0a0a;
+            margin-right: 4px;
+        }
+
+        /* ===== 通用标题 ===== */
+        h2 {
+            font-size: 26px;
+            font-weight: 700;
+            margin-top: 44px;
+            margin-bottom: 14px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #eae8e2;
+            letter-spacing: 0.5px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: #2a2a2a;
+        }
+
+        a {
+            color: #1e1e1e;
+            text-decoration: none;
+            border-bottom: 1px dotted #b8b8b8;
+            transition: border-color 0.15s;
+        }
+
+        a:hover {
+            border-bottom: 1px solid #1e1e1e;
+        }
+
+        /* ===== 七层架构卡片网格 ===== */
+        .layer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 18px;
+            margin: 18px 0 8px 0;
+        }
+
+        .layer-card {
+            background: #faf9f6;
+            border-radius: 14px;
+            padding: 18px 20px 16px;
+            border: 1px solid #ecebe6;
+            transition: transform 0.1s ease, box-shadow 0.2s;
+        }
+
+        .layer-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        }
+
+        .layer-card .layer-num {
+            display: inline-block;
+            background: #1e1e1e;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 0 12px;
+            border-radius: 30px;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .layer-card .layer-title {
+            font-weight: 700;
+            font-size: 17px;
+            margin-bottom: 4px;
+        }
+
+        .layer-card .layer-docs {
+            font-size: 14px;
+            color: #3a3a3a;
+            line-height: 1.6;
+        }
+
+        .layer-card .layer-docs a {
+            border-bottom: 1px dotted #b0b0b0;
+        }
+
+        .layer-card .layer-func {
+            font-size: 14px;
+            color: #6a6a6a;
+            margin-top: 6px;
+            padding-top: 6px;
+            border-top: 1px dashed #dddcd6;
+        }
+
+        /* ===== 核心公式 ===== */
+        .formula-box {
+            background: #f2f0ea;
+            border-radius: 16px;
+            padding: 20px 28px;
+            margin: 16px 0 10px 0;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            border: 1px solid #e0ded7;
+        }
+
+        .formula-box .small {
+            font-size: 16px;
+            font-weight: 400;
+            color: #4a4a4a;
+        }
+
+        /* ===== 三大元法则徽章 ===== */
+        .meta-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px 20px;
+            margin: 10px 0 12px 0;
+        }
+
+        .meta-badge {
+            background: #eae8e2;
+            padding: 4px 18px;
+            border-radius: 30px;
+            font-weight: 500;
+            font-size: 15px;
+            color: #1e1e1e;
+            border: 1px solid #d4d2ca;
+        }
+
+        /* ===== 核心机制 ===== */
+        .mechanism-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 12px;
+            margin: 10px 0 8px 0;
+        }
+
+        .mechanism-item {
+            background: #faf9f6;
+            padding: 12px 16px;
+            border-radius: 10px;
+            border-left: 3px solid #1e1e1e;
+            font-size: 15px;
+        }
+
+        .mechanism-item strong {
+            display: block;
+            font-weight: 700;
+        }
+
+        /* ===== 平台链接列表 ===== */
+        .link-group {
+            margin: 16px 0 10px 0;
+        }
+
+        .link-group h4 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 18px;
+            margin-bottom: 6px;
+            color: #1e1e1e;
+        }
+
+        .link-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .link-list li {
+            padding: 5px 0;
+            border-bottom: 1px solid #f0eee9;
+            font-size: 15px;
+        }
+
+        .link-list li:last-child {
+            border-bottom: none;
+        }
+
+        .link-list .tag {
+            display: inline-block;
+            background: #eae8e2;
+            font-size: 12px;
+            padding: 0 10px;
+            border-radius: 12px;
+            margin-right: 8px;
+            color: #3a3a3a;
+            font-weight: 500;
+        }
+
+        /* ===== 引用格式 ===== */
+        .bib-box {
+            background: #f4f2ed;
+            border-radius: 12px;
+            padding: 16px 20px;
+            font-family: "SF Mono", "Menlo", "Consolas", monospace;
+            font-size: 13px;
+            white-space: pre-wrap;
+            word-break: break-all;
+            border: 1px solid #dddcd6;
+            margin: 10px 0;
+            overflow-x: auto;
+        }
+
+        /* ===== 响应式 ===== */
+        @media (max-width: 640px) {
+            body {
+                padding: 16px 8px;
+            }
+            .container {
+                padding: 24px 16px;
+            }
+            .title-row h1 {
+                font-size: 26px;
+            }
+            .title-row .tag {
+                font-size: 12px;
+                padding: 2px 12px;
+            }
+            .sub-brand {
+                font-size: 12px;
+            }
+            .info-row {
+                font-size: 14px;
+                flex-direction: column;
+                gap: 2px;
+            }
+            .brand-right {
+                text-align: left;
+                width: 100%;
+                margin-top: 6px;
+            }
+            .formula-box {
+                font-size: 18px;
+                padding: 16px 14px;
+            }
+            .layer-grid {
+                grid-template-columns: 1fr;
+            }
+            .mechanism-list {
+                grid-template-columns: 1fr;
+            }
+            .designer-note {
+                padding: 16px 18px;
+            }
+            .system-intro {
+                padding: 16px 18px;
+            }
+            .feature-grid {
+                grid-template-columns: 1fr;
+                gap: 6px;
+            }
+            .feature-item {
+                font-size: 14px;
+            }
+        }
+
+        /* ===== 页脚 ===== */
+        .footer {
+            margin-top: 48px;
+            padding-top: 20px;
+            border-top: 2px solid #eae8e2;
+            font-size: 14px;
+            color: #8a8a8a;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #4a4a4a;
+            border-bottom: 1px dotted #b0b0b0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- ===== 顶部品牌区 ===== -->
+    <div class="brand">
+        <div class="brand-left">
+            <div class="sub-brand">YANG SHENGQI'S AXIOMATIC SYSTEM OF CIVILIZATION</div>
+            <div class="title-row">
+                <h1>杨晟琦文明公理系统</h1>
+                <span class="tag">独立思想锚点</span>
+            </div>
+            <div class="info-row">
+                <span>ORCID: <a href="https://orcid.org/0009-0008-3755-8960" target="_blank">0009-0008-3755-8960</a></span>
+                <span>封装完成: 2026年7月</span>
+            </div>
+        </div>
+        <div class="brand-right"></div>
+    </div>
+
+    <!-- ===== 设计者自述 ===== -->
+    <div class="designer-note">
+        <p><span class="highlight">我叫杨晟琦，1980年出生于中国。</span></p>
+        <p>我是地球上第一位文明公理架构师。我用一把游标卡尺量出了文明的厚度，然后用一台引擎把裂缝堵上了。</p>
+        <p style="color:#5a5a5a; font-size:15px; margin-top:6px;">I am the world's first Architect of Civilizational Axioms. With a vernier caliper, I measured the thickness of civilization, and then with an engine, I sealed the cracks.</p>
+    </div>
+
+    <!-- ===== 系统定位与核心特点（详细版） ===== -->
+    <div class="system-intro">
+        <h3>系统定位</h3>
+        <div class="positioning">
+            <p><strong>杨晟琦文明公理系统</strong> 是一套自洽的、可检验的文明底层逻辑框架。</p>
+            <p>它从公理定义出发，经诊断模型、度量工具、过程监测、药方设计、操作手册到验证工具，构成完整闭环。</p>
+            <p>它不依附于任何国家、政权、资本或组织，不依赖任何外部条件。</p>
+            <p>它的唯一前提是：系统愿意被对照检验。</p>
+        </div>
+
+        <h3 style="margin-top:18px; margin-bottom:10px;">核心特点</h3>
+        <div class="feature-grid">
+            <div class="feature-item"><span class="num">1.</span> 三段式结构：方向 → 诊断 → 处方，逻辑不可拆分，缺一则系统失效。</div>
+            <div class="feature-item"><span class="num">2.</span> 可计算函数：文明指数将“文明”从修辞转化为可测量的数学公式。</div>
+            <div class="feature-item"><span class="num">3.</span> 三条元法则：基石否决权、体感优先律、最短木桶律，封堵一切数据粉饰与选择性执行。</div>
+            <div class="feature-item"><span class="num">4.</span> 九式诊断路径：从结构性不公到结构性死亡，完整揭示系统如何走向崩溃。</div>
+            <div class="feature-item"><span class="num">5.</span> 物理与法律双重锁定：法律铁索 + 三重剥离 + 物理隔绝，使制度具有反脆弱性。</div>
+            <div class="feature-item"><span class="num">6.</span> 非归责性操作手册：七条方法论不追究个人责任，只提供可执行的系统翻转路径。</div>
+            <div class="feature-item"><span class="num">7.</span> 独立验证机制：用系统自身的工具检验系统自身，完成完整闭环验收。</div>
+            <div class="feature-item"><span class="num">8.</span> 无条件启动：不依赖“好领导”或“足够资源”，只依赖系统愿意被对照检验。</div>
+        </div>
+    </div>
+
+    <!-- ===== 体系概述 ===== -->
+    <h2>体系概述</h2>
+    <p>本体系是一套从公理定义到验收报告的完整思想架构，由十一篇核心文档构成，分为七个逻辑层，每一层都不可省略，缺一则系统失效。</p>
+
+    <h3>七层架构</h3>
+    <div class="layer-grid">
+
+        <div class="layer-card">
+            <span class="layer-num">元框架</span>
+            <div class="layer-title">三大基石</div>
+            <div class="layer-docs"><a href="./三大基石：一种文明系统的底层重构框架.pdf">《三大基石：一种文明系统的底层重构框架》</a></div>
+            <div class="layer-func">定义"什么是好系统"</div>
+        </div>
+
+        <div class="layer-card">
+            <span class="layer-num">诊断模型</span>
+            <div class="layer-title">三条路径</div>
+            <div class="layer-docs">
+                <a href="./低级文明的完整路径图.pdf">《低级文明的完整路径图》</a><br>
+                <a href="./确定性社会系统形成的必要条件与阻碍因素.pdf">《确定性社会系统形成的必要条件与阻碍因素》</a><br>
+                <a href="./正义、利益与规则的错位：系统自我维护与外部纠偏的张力分析.pdf">《正义、利益与规则的错位》</a>
+            </div>
+            <div class="layer-func">揭示"坏系统如何死亡"</div>
+        </div>
+
+        <div class="layer-card">
+            <span class="layer-num">度量工具</span>
+            <div class="layer-title">文明等级判断说明书</div>
+            <div class="layer-docs"><a href="./文明等级判断说明书.pdf">《文明等级判断说明书》</a></div>
+            <div class="layer-func">将文明从修辞转化为可计算函数</div>
+        </div>
+
+        <div class="layer-card">
+            <span class="layer-num">过程监测</span>
+            <div class="layer-title">非死锁的条件分析</div>
+            <div class="layer-docs"><a href="./系统“非死锁”的条件分析：外部纠偏如何可能转化为制度内生的纠偏机制.pdf">《系统"非死锁"的条件分析》</a></div>
+            <div class="layer-func">观察"系统正在哪一环"</div>
+        </div>
+
+        <div class="layer-card">
+            <span class="layer-num">药方</span>
+            <div class="layer-title">全球人类主权基金</div>
+            <div class="layer-docs">
+                <a href="./全球人类主权基金：重构中国与全球利益格局的制度构想（中文版）.pdf">中文版</a> ·
+                <a href="./全球人类主权基金：重构中国与全球利益格局的制度构想（英文版）.pdf">英文版</a>
+            </div>
+            <div class="layer-func">提供解决方案</div>
+        </div>
+
+        <div class="layer-card">
+            <span class="layer-num">操作手册</span>
+            <div class="layer-title">改变底层逻辑的方法论</div>
+            <div class="layer-docs"><a href="./改变底层逻辑的方法论（非归因，可操作）.pdf">《改变底层逻辑的方法论（非归因，可操作）》</a></div>
+            <div class="layer-func">提供执行路径</div>
+        </div>
+
+        <div class="layer-card">
+            <span class="layer-num">验证工具</span>
+            <div class="layer-title">文明流向的力学推演</div>
+            <div class="layer-docs"><a href="./从地球人类视野的推演：为什么“换皮奴隶制”终将失效，而“真文明”必然成为引力中心.pdf">《从地球人类视野的推演》</a></div>
+            <div class="layer-func">论证"为什么必然赢"</div>
+        </div>
+
+        <div class="layer-card">
+            <span class="layer-num">验收报告</span>
+            <div class="layer-title">文明公理宪法与全球人类主权基金的验收报告</div>
+            <div class="layer-docs"><a href="./文明公理宪法与全球人类主权基金的验收报告.pdf">《文明公理宪法与全球人类主权基金的验收报告》</a></div>
+            <div class="layer-func">用自身工具检验自身</div>
+        </div>
+
+    </div>
+
+    <!-- ===== 核心公式 ===== -->
+    <h3>核心公式</h3>
+    <div class="formula-box">
+        文明指数 =（生存与劳动保障 + 劳动价值平等 + 收入分配公平 + 言论与精神自由）× 2.5
+        <div class="small">满分100分 · 四项要素等权重</div>
+    </div>
+
+    <!-- ===== 三大元法则 ===== -->
+    <h3>三大元法则</h3>
+    <div class="meta-badges">
+        <span class="meta-badge">基石否决权</span>
+        <span class="meta-badge">体感优先律</span>
+        <span class="meta-badge">最短木桶律</span>
+    </div>
+
+    <!-- ===== 核心机制 ===== -->
+    <h3>核心机制</h3>
+    <div class="mechanism-list">
+        <div class="mechanism-item"><strong>法律铁索</strong>三条永久底线，任何政府不得抽离本金与收益</div>
+        <div class="mechanism-item"><strong>三重剥离</strong>财产权剥离至法人 · 人事权剥离于公职 · 受益权脱离政治权利</div>
+        <div class="mechanism-item"><strong>物理隔绝</strong>资本 · 治理 · 分配三层次隔离，资产不受任何单一政权控制</div>
+        <div class="mechanism-item"><strong>善意后门</strong>不换人只换规则，不翻旧账只锁未来</div>
+    </div>
+
+    <!-- ===== 永久存档入口 ===== -->
+    <h2>永久存档入口</h2>
+    <p>本体系通过<strong>地理分散</strong>（瑞士、美国、全球区块链）、<strong>技术异构</strong>（学术存档、区块链、代码托管）和<strong>冗余备份</strong>，将文档固化于以下平台：</p>
+
+    <div class="link-group">
+        <h4>📘 学术引用入口（推荐）</h4>
+        <ul class="link-list">
+            <li><span class="tag">OSF</span> <a href="https://osf.io/vntzq/" target="_blank">https://osf.io/vntzq/</a> （主入口 · DOI: 10.17605/OSF.IO/VNTZQ）</li>
+            <li><span class="tag">哈佛 Dataverse</span> <a href="https://dataverse.harvard.edu/dataverse/yangshengqi" target="_blank">https://dataverse.harvard.edu/dataverse/yangshengqi</a> （DOI: 10.7910/DVN/VNQANE）</li>
+            <li><span class="tag">Zenodo（CERN）</span> 11篇独立DOI（详见下方清单）</li>
+        </ul>
+    </div>
+
+    <div class="link-group">
+        <h4>📄 Zenodo 单篇 DOI 索引</h4>
+        <ul class="link-list">
+            <li><span class="tag">元框架</span> <a href="https://doi.org/10.5281/zenodo.21638008" target="_blank">10.5281/zenodo.21638008</a> —— 三大基石</li>
+            <li><span class="tag">诊断</span> <a href="https://doi.org/10.5281/zenodo.21637921" target="_blank">10.5281/zenodo.21637921</a> —— 低级文明的完整路径图</li>
+            <li><span class="tag">诊断</span> <a href="https://doi.org/10.5281/zenodo.21637993" target="_blank">10.5281/zenodo.21637993</a> —— 确定性社会系统形成的必要条件与阻碍因素</li>
+            <li><span class="tag">诊断</span> <a href="https://doi.org/10.5281/zenodo.21638069" target="_blank">10.5281/zenodo.21638069</a> —— 正义、利益与规则的错位</li>
+            <li><span class="tag">度量</span> <a href="https://doi.org/10.5281/zenodo.21634037" target="_blank">10.5281/zenodo.21634037</a> —— 文明等级判断说明书</li>
+            <li><span class="tag">监测</span> <a href="https://doi.org/10.5281/zenodo.21638046" target="_blank">10.5281/zenodo.21638046</a> —— 系统"非死锁"的条件分析</li>
+            <li><span class="tag">药方</span> <a href="https://doi.org/10.5281/zenodo.20117265" target="_blank">10.5281/zenodo.20117265</a> —— 全球人类主权基金（中文）</li>
+            <li><span class="tag">药方</span> <a href="https://doi.org/10.5281/zenodo.20391068" target="_blank">10.5281/zenodo.20391068</a> —— 全球人类主权基金（英文）</li>
+            <li><span class="tag">操作</span> <a href="https://doi.org/10.5281/zenodo.21637960" target="_blank">10.5281/zenodo.21637960</a> —— 改变底层逻辑的方法论</li>
+            <li><span class="tag">验证</span> <a href="https://doi.org/10.5281/zenodo.21637952" target="_blank">10.5281/zenodo.21637952</a> —— 从地球人类视野的推演</li>
+            <li><span class="tag">验收</span> <a href="https://doi.org/10.5281/zenodo.21638100" target="_blank">10.5281/zenodo.21638100</a> —— 文明公理宪法与全球人类主权基金的验收报告</li>
+        </ul>
+    </div>
+
+    <div class="link-group">
+        <h4>⛓️ 区块链永久存储（ArDrive / Arweave）</h4>
+        <ul class="link-list">
+            <li><span class="tag">总览</span> <a href="https://app.ardrive.io/#/file/26aff7bf-266b-4579-8fb9-b1215181a3f0/view" target="_blank">完整体系简介</a></li>
+            <li><span class="tag">元框架</span> <a href="https://app.ardrive.io/#/file/5dd474b4-c270-4cce-beb7-aee547f7f988/view" target="_blank">三大基石</a></li>
+            <li><span class="tag">诊断</span> <a href="https://app.ardrive.io/#/file/bf01bfe1-b727-423e-8799-741ca4df49f0/view" target="_blank">低级文明的完整路径图</a></li>
+            <li><span class="tag">诊断</span> <a href="https://app.ardrive.io/#/file/b09ced2c-dd6a-491f-a802-be27c2e3a4d9/view" target="_blank">确定性社会系统形成的必要条件与阻碍因素</a></li>
+            <li><span class="tag">诊断</span> <a href="https://app.ardrive.io/#/file/e254d209-41ad-42bb-a7d2-8d3b2feae997/view" target="_blank">正义、利益与规则的错位</a></li>
+            <li><span class="tag">度量</span> <a href="https://app.ardrive.io/#/file/d18e66f0-7a6a-454e-b523-5564e8a1f8de/view" target="_blank">文明等级判断说明书</a></li>
+            <li><span class="tag">监测</span> <a href="https://app.ardrive.io/#/file/5cbd29b4-6fd3-46ad-9e4f-6e96354be3a1/view" target="_blank">系统"非死锁"的条件分析</a></li>
+            <li><span class="tag">药方</span> <a href="https://app.ardrive.io/#/file/87b3aa4e-06d4-451e-a950-307d46efcdc0/view" target="_blank">全球人类主权基金（中文）001</a></li>
+            <li><span class="tag">操作</span> <a href="https://app.ardrive.io/#/file/f6a75dc4-295e-4416-8b06-bdf79665872a/view" target="_blank">改变底层逻辑的方法论</a></li>
+            <li><span class="tag">验证</span> <a href="https://app.ardrive.io/#/file/48197477-a9d5-4706-b64c-9f6ae142fa1c/view" target="_blank">从地球人类视野的推演</a></li>
+            <li><span class="tag">验收</span> <a href="https://app.ardrive.io/#/file/301afc45-24b6-40fb-9c68-9c902d6a397d/view" target="_blank">文明公理宪法与全球人类主权基金的验收报告</a></li>
+            <li><span class="tag">总报告</span> <a href="https://app.ardrive.io/#/file/506cecbb-3c6d-44e9-a2a8-6b0397bb0521/view" target="_blank">完整思想体系与全球分发总报告</a></li>
+        </ul>
+    </div>
+
+    <div class="link-group">
+        <h4>🌐 其他公开入口</h4>
+        <ul class="link-list">
+            <li><span class="tag">WordPress</span> <a href="https://uncienine.wordpress.com/" target="_blank">https://uncienine.wordpress.com/</a> （思想首发阵地）</li>
+            <li><span class="tag">GitHub</span> <a href="https://github.com/yang-shengqi/global-human-sovereign-fund" target="_blank">https://github.com/yang-shengqi/global-human-sovereign-fund</a> （本仓库）</li>
+            <li><span class="tag">Academia.edu</span> <a href="https://independent.academia.edu/shengqiyang" target="_blank">https://independent.academia.edu/shengqiyang</a></li>
+        </ul>
+    </div>
+
+    <!-- ===== 引用格式 ===== -->
+    <h2>学术引用格式</h2>
+    <h3>OSF 主入口（推荐）</h3>
+    <div class="bib-box">@misc{https://doi.org/10.17605/osf.io/vntzq,
+  doi = {10.17605/OSF.IO/VNTZQ},
+  url = {https://osf.io/vntzq/},
+  author = {Yang, Shengqi},
+  keywords = {Social Sciences, Civilizational System, Institutional Design, Public Wealth, Rule of Law},
+  title = {Yang Shengqi's Civilizational System — Complete Framework},
+  publisher = {OSF Registries},
+  year = {2026},
+  copyright = {Creative Commons Zero v1.0 Universal}
+}</div>
+
+    <h3>哈佛 Dataverse</h3>
+    <div class="bib-box">@misc{https://doi.org/10.7910/dvn/vnqane,
+  doi = {10.7910/DVN/VNQANE},
+  url = {https://dataverse.harvard.edu/dataverse/yangshengqi},
+  author = {Yang, Shengqi},
+  keywords = {Social Sciences, Civilizational System, Institutional Design, Public Wealth, Rule of Law},
+  title = {Yang Shengqi's Civilizational System — Complete Framework Overview},
+  publisher = {Harvard Dataverse},
+  year = {2026},
+  copyright = {Creative Commons Zero v1.0 Universal}
+}</div>
+
+    <!-- ===== 页脚 ===== -->
+    <div class="footer">
+        杨晟琦文明公理系统 · 独立思想锚点 &nbsp;·&nbsp; 首发于2026年 &nbsp;·&nbsp; 本页为公开索引入口<br>
+        所有内容以 <a href="https://creativecommons.org/licenses/by-nd/4.0/deed.zh" target="_blank">CC BY-ND 4.0</a> 协议发布
+    </div>
+
+</div>
+
+</body>
+</html>
